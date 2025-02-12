@@ -14,8 +14,9 @@ public class TwoSumOptimal {
         for(int i=0; i<nums.length; i++){
             int complement = target - nums[i];
             if(map.containsKey(complement)){
-                return new int[]{map.get(complement),i};
-            } map.put(nums[i],i);
+                complement = map.get(complement);
+                return new int[]{complement,i};
+            } map.put(nums[i],i); // adding the number and its index to the map
         }
         throw new IllegalArgumentException("result not match!");
     }
