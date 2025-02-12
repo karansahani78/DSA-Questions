@@ -1,0 +1,10 @@
+language: "java"
+name: "FAANG"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.ArrayList"
+- path: "com.Arrays"
+- path: "com.functions"
+- path: "com.karan"
+- path: "com.loops_conditions"
+- path: "com.Switch"
