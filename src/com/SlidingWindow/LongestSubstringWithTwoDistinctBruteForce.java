@@ -5,7 +5,7 @@ public class LongestSubstringWithTwoDistinctBruteForce {
         String s = "ninninja";
         System.out.println(lengthOfLongestSubstringBruteForce(s,2));
     }
-
+// bruteforce approach
     public static int lengthOfLongestSubstringBruteForce(String s, int k) {
         int LongestS =0;
         // generating all the substrings
