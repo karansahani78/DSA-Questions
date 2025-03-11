@@ -31,6 +31,16 @@ public class SinglyLinkedListAddAtEnd {
         }
         size++;
     }
+    // remove first
+    public int deleteFirst(){
+        int val = head.value;
+        head = head.next;
+        if(head==null){
+            tail=null;
+        }
+        size--;
+        return val;
+    }
 
     // method to display the linkedlist
     public void Display(){
@@ -49,6 +59,7 @@ public class SinglyLinkedListAddAtEnd {
         list.InsertAtEnd(12);
         list.InsertAtEnd(13);
         list.Display();
+        System.out.println(list.deleteFirst());
 
     }
 }
