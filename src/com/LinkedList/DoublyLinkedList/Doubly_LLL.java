@@ -79,6 +79,27 @@ public class Doubly_LLL {
 
         size++;
     }
+// remove any node
+public void removeNode(int position) {
+    if (head == null || position <= 1 || position >= size) {
+        System.out.println("Can't remove first or last node, or invalid position");
+        return;
+    }
+
+    Node temp = head;
+    for (int i = 1; i < position - 1; i++) { // Traverse to (position - 1) node
+        temp = temp.next;
+    }
+
+    // Removing the node by skipping it
+    temp.next = temp.next.next;
+
+    if (temp.next != null) {
+        temp.next.previouse = temp;
+    }
+
+    size--;
+}
 
     // Display the linked list (forward & reverse)
     public void display() {
@@ -114,6 +135,8 @@ public class Doubly_LLL {
         list.insertAtEnd(14);
         list.display();
         list.insertAtAnyPosition(20, 3);
+        list.display();
+        list.removeNode(3);
         list.display();
     }
 }
