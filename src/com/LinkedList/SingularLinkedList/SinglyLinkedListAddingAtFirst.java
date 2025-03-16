@@ -1,4 +1,4 @@
-package com.LinkedList;
+package com.LinkedList.SingularLinkedList;
 
 public class SinglyLinkedListAddingAtFirst {
     // fields of linkedList or what are the fields a Node always have
