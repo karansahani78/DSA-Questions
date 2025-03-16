@@ -1,4 +1,4 @@
-package com.LinkedList;
+package com.LinkedList.SingularLinkedList;
 
 public class LL {
     private Node head; // First node of the linked list

@@ -1,4 +1,4 @@
-package com.LinkedList;
+package com.LinkedList.SingularLinkedList;
 
 public class SinglyLinkedListAddAtEnd {
     // fields of Node
