@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class UniqueCount {
     public static void main(String[] args) {
-        int []nums = {2,6,3,2,7,3,8};
+        int []nums = {2, 6, 3, 2, 7, 3, 8};
         System.out.println(count(nums));
 
     }
