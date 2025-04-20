@@ -90,15 +90,7 @@ public class Pairs {
 
         list.display();  // Output: null <- 5 <-> 4 <-> 3 <-> 2 <-> 1 -> null
 
-        ArrayList<ArrayList<Integer>> result = findPairsWithGivenSum(7, list.getHead());
+        findPairsWithGivenSum(7, list.head).forEach(pair -> System.out.println(pair.get(0) + " + " + pair.get(1)));
 
-        if (result.isEmpty()) {
-            System.out.println("No pairs with sum 7 found.");
-        } else {
-            System.out.println("Pairs with sum 7:");
-            for (ArrayList<Integer> pair : result) {
-                System.out.println(pair.get(0) + " + " + pair.get(1));
-            }
         }
     }
-}
