@@ -68,6 +68,7 @@ public class RemoveNthNode {
         for(int i = 1; i<length-n; i++){
             temp= temp.next;
         }
+        // skip the nth node
         temp.next = temp.next.next;
     }
     public static void main(String[] args) {
