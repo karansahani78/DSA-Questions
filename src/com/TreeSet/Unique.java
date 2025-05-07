@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 public class Unique {
     public static void main(String[] args) {
-        int[] nums = {1, 1, 2, 2, 3, 3, 4, 4, 5};
+        int[] nums = {1,2, 2, 3, 3, 4, 4, 5};
         System.out.println(Uni(nums));
     }
 
@@ -15,7 +15,7 @@ public class Unique {
         }
 
         // Return the smallest unique element from the set
-        if (unique.isEmpty()) {
+        if (!unique.isEmpty()) {
             return unique.first();
         }
 
