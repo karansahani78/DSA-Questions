@@ -46,10 +46,10 @@ public class BfsTravelOnList {
             result.add(currentNode);
             ArrayList<Integer> neighbors = adj.get(currentNode);
             for(int i=0; i<neighbors.size(); i++){
-                int neighbor = neighbors.get(i);
-                if(!visited[neighbor]){
-                    visited[neighbor] = true;
-                    q.offer(neighbor);
+                int currentNeighbor = neighbors.get(i);
+                if(!visited[currentNeighbor]){
+                    visited[currentNeighbor] = true;
+                    q.offer(currentNeighbor);
                 }
             }
         }
