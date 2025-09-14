@@ -1,10 +1,9 @@
-package Tree;
+package com.Tree;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
-import static Tree.ReturnTree.BuildTree.inorder;
+import static com.Tree.ReturnTree.BuildTree.inorder;
 
 public class ReturnTree {
     public static class Node{

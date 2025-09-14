@@ -1,4 +1,4 @@
-package Tree;
+package com.Tree;
 
 public class InorderTraversal {
     public static class Node{

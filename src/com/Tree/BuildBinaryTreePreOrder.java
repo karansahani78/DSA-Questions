@@ -1,4 +1,4 @@
-package Tree;
+package com.Tree;
 
 public class BuildBinaryTreePreOrder {
     static class Node {

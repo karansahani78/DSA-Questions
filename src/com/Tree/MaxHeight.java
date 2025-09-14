@@ -1,4 +1,4 @@
-package Tree;
+package com.Tree;
 
 public class MaxHeight {
     public static class Node {
@@ -24,7 +24,7 @@ public class MaxHeight {
             return root;
         }
     }
-    // Q.n find the max height of the Tree
+    // Q.n find the max height of the com.Tree
     public static int maxHight(Node root){
         if(root==null){
             return 0;
