@@ -26,5 +26,9 @@ bin/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< Updated upstream
 .DS_Store.idea/
 *.iml
+=======
+.DS_Store
+>>>>>>> Stashed changes
