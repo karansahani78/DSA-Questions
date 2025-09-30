@@ -34,7 +34,7 @@ public class HeapImpl {
             arr[j] = temp;
         }
 
-        // insert value into heap
+        // INSERT AN ELEMENT IN HEAP
         public void insert(int value){
             if(size == capacity){
                 System.out.println("Heap is full");
